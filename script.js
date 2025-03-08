@@ -1,14 +1,19 @@
 let listaDeAmigos =[];
 
-function exibirNomes(texto) {
+function exibirLista() {
   let quadro = document.querySelector('.quadro-ap');
-  quadro.innerHTML = texto;
+  quadro.innerHTML = listaDeAmigos.join('<br>');
   
 }
 
 function adicionarNome(){
   let nome = document.querySelector('input').value;
-  exibirNomes(nome);
+  if (nome.length > 2) {
+    nome.length
+    listaDeAmigos.push(nome);
+    exibirLista();
+    limparCampo();
+  }
 }
 
 function sortearNome(){

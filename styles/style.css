@@ -66,17 +66,21 @@ body {
 
 .entrada {
   display: flex;
+  background: #000000;
   justify-content: center;
   width: 90%;
-  border: 2px solid #22D4FD;
+  border: 3px solid #22D4FD;
   border-radius: 8px;
   padding: 21.5px;
-  color: #F6F6F6;
+  color: #22d4fd;
+  text-align: center;
+  font-size: 24px;
 }
 
 .botao {
     display: flex;
     justify-content: center;
+    background: #000000;
     gap: 16px;
     border: 2px solid #22D4FD;
     width: 378px;
@@ -86,10 +90,9 @@ body {
     font-weight: 600;
     padding: 21.5px 0;
    
-    color: #000000;
+    color: #22D4FD;
     font-family: 'Montserrat', sans-serif;
 }
-
 .quadro {
     display: flex;
     justify-content: center;
