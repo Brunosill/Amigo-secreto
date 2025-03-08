@@ -16,6 +16,14 @@ function adicionarNome(){
   }
 }
 
+function abrirPopup(){
+  document.getElementById("overlay").style.display = "block";
+}
+
+function definirAmigos(lista) {
+  lista.length
+}
+
 function sortearNome(){
   let numeroAleatorio = ""
 }
