@@ -20,6 +20,10 @@ function abrirPopup(){
   document.getElementById("overlay").style.display = "block";
 }
 
+function fecharPopup(){
+  document.getElementById("overlay").style.display = "none";
+}
+
 function definirAmigos(lista) {
   lista.length
 }
