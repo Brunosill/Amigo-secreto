@@ -16,20 +16,23 @@ function adicionarNome(){
   }
 }
 
-function abrirPopup(){
+function abrirPopup(mensagem){
   document.getElementById("overlay").style.display = "block";
+  let popupP = document.getElementById("textoPopUp");
+  popupP.innerHTML = mensagem;
 }
 
 function fecharPopup(){
   document.getElementById("overlay").style.display = "none";
 }
 
-function definirAmigos(lista) {
-  lista.length
-}
-
 function sortearNome(){
-  let numeroAleatorio = ""
+  if (listaDeAmigos != 0){
+    let numero = Math.floor(Math.random() * listaDeAmigos.length);
+    abrirPopup(listaDeAmigos[numero]);
+    console.log(listaDeAmigos[numero]);
+  }
+  //abrirPopup(saida);
 }
 
 
