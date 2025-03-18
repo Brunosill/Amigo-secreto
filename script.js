@@ -30,7 +30,7 @@ function sortearNome(){
   if (listaDeAmigos != 0){
     let numero = Math.floor(Math.random() * listaDeAmigos.length);
     abrirPopup(listaDeAmigos[numero]);
-    console.log(listaDeAmigos[numero]);
+    
   }
   //abrirPopup(saida);
 }
