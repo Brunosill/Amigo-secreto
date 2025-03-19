@@ -30,11 +30,9 @@ function sortearNome(){
   if (listaDeAmigos != 0){
     let numero = Math.floor(Math.random() * listaDeAmigos.length);
     let amigo = listaDeAmigos[numero];
-    console.log(amigo);
     abrirPopup(amigo);
     listaDeAmigos.splice(listaDeAmigos.lastIndexOf(amigo), 1);
-    console.log(listaDeAmigos);
-    exibirLista();
+ 
   }
   
 }
