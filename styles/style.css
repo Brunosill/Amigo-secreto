@@ -28,17 +28,21 @@ body {
 }
 
 #popup {
+  display: grid;
   position: fixed;
   justify-content: center;
+  gap: 15px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 21px 0;
   border: 2px solid #22d4fd;
-  width: 400px;
-  border-radius: 10px;
+  width: 40%;
+  font-size: 20px;
+  border-radius: 15px;
   background-color: #000000;
-  box-shoadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 1001;
 }
 
@@ -171,7 +175,7 @@ body {
     font-size: 1.5rems;
     font-weight: 400;
 }
-
+ /*
  @media (max-width: 1200px) {
    .cabecalho {
      padding: 10%;
@@ -189,4 +193,4 @@ body {
    .apresentacao_conteudo {
      width: auto;
    }
- }
+ }*/
